@@ -1,0 +1,87 @@
+@import 'screen.css' screen;
+@import 'print.css' print;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-position:inside;
+}
+
+#masthead {
+	position:absolute;
+	width:200px;
+	height:200px;
+}
+
+#navbar {
+	padding-left:215px;
+	height:68px;
+}
+
+#navbar ul {
+	
+	top:20px;
+}
+
+#navbar li {
+	display:inline;
+	bottom:0;
+}
+
+#mat {
+	padding:10px;
+}
+
+#main {
+	width:750px;
+	margin: 1.5em 0px 1.5em 210px;
+}
+
+#content {
+	padding: 0px 25px 0px 20px;
+	width:540px;
+}
+
+
+#content .versioninfo {
+	text-align: center;
+	border-bottom: 1px dashed #B2B2B2;
+	padding-bottom: 1em;
+	margin-bottom: 1.5em;
+}
+
+#content .articleText{
+	min-height:400px;
+}
+
+#content .footer {
+}
+
+#sidebar {
+	padding-left:15px;
+	width:140px;
+}
+
+.column {
+	float:left;
+}
+
+.clear {
+	clear:both;
+}
+
+#footer {
+	padding-left: 215px;
+}
+
+#metastuff {
+	text-align: center; font: 1em Georgia, serif;
+	padding: 0.75em 0 0.5em;
+	margin: 0.25em 0 0.5em;
+	background: #F8F7EF;
+	border: 1px dashed #B2B2B2;
+	border-width: 1px 0;
+}
